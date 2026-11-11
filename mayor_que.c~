@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int mayor_que(int a, int b) {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+int main() {
+    int num1, num2, mayor;
+
+    printf("Ingresa el primer numero: ");
+    scanf("%d", &num1);
+
+    printf("Ingresa el segundo numero: ");
+    scanf("%d", &num2);
+
+    mayor = mayor_que(num1, num2);
+
+    printf("El numero mayor es: %d\n", mayor);
+
+    return 0;
+}
