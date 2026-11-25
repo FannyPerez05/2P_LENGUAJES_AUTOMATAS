@@ -1,1 +1,17 @@
+#include <stdio.h>
 
+int main() {
+    int edad = 20
+    float precio = 15.5;
+
+    rint("Hola mundo");
+
+    if edad > 18) {
+        printf("Mayor de edad");
+    }
+
+    int numero;
+    numero = variable;
+
+    return 0;
+}
